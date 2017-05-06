@@ -1,0 +1,3651 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>$scroll.space.name</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+h1
+	{mso-style-link:"Überschrift 1 Zchn";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	text-indent:-45.35pt;
+	line-height:115%;
+	page-break-before:always;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+h2
+	{mso-style-link:"Überschrift 2 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	text-indent:-45.35pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+h3
+	{mso-style-link:"Überschrift 3 Zchn";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	text-indent:-45.35pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+h4
+	{mso-style-link:"Überschrift 4 Zchn";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#B30037;
+	font-weight:bold;}
+h5
+	{mso-style-link:"Überschrift 5 Zchn";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:normal;
+	font-style:italic;}
+h6
+	{mso-style-link:"Überschrift 6 Zchn";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#5A5257;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Überschrift 7 Zchn";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#404040;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Überschrift 8 Zchn";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#404040;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Überschrift 9 Zchn";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#404040;
+	font-style:italic;}
+p.MsoIndex1, li.MsoIndex1, div.MsoIndex1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndex2, li.MsoIndex2, div.MsoIndex2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:20.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndex3, li.MsoIndex3, div.MsoIndex3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndex4, li.MsoIndex4, div.MsoIndex4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndex5, li.MsoIndex5, div.MsoIndex5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:50.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndex6, li.MsoIndex6, div.MsoIndex6
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndex7, li.MsoIndex7, div.MsoIndex7
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndex8, li.MsoIndex8, div.MsoIndex8
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:80.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndex9, li.MsoIndex9, div.MsoIndex9
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:90.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	text-indent:-45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	text-indent:-45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	text-indent:-45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:30.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:40.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:50.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:60.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:70.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:80.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:35.4pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Fußnotentext Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Kommentartext Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Kopfzeile Zchn";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Fußzeile Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoIndexHeading, li.MsoIndexHeading, div.MsoIndexHeading
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:45.35pt;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoTof, li.MsoTof, div.MsoTof
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoEnvelopeAddress, li.MsoEnvelopeAddress, div.MsoEnvelopeAddress
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:.05pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:12.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoEnvelopeReturn, li.MsoEnvelopeReturn, div.MsoEnvelopeReturn
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+span.MsoEndnoteReference
+	{vertical-align:super;}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{mso-style-link:"Endnotentext Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoToa, li.MsoToa, div.MsoToa
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoMacroText, li.MsoMacroText, div.MsoMacroText
+	{mso-style-link:"Makrotext Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:Consolas;}
+p.MsoToaHeading, li.MsoToaHeading, div.MsoToaHeading
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+p.MsoList, li.MsoList, div.MsoList
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:14.15pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListCxSpFirst, li.MsoListCxSpFirst, div.MsoListCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListCxSpMiddle, li.MsoListCxSpMiddle, div.MsoListCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListCxSpLast, li.MsoListCxSpLast, div.MsoListCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:14.15pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBulletCxSpFirst, li.MsoListBulletCxSpFirst, div.MsoListBulletCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBulletCxSpMiddle, li.MsoListBulletCxSpMiddle, div.MsoListBulletCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBulletCxSpLast, li.MsoListBulletCxSpLast, div.MsoListBulletCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumberCxSpFirst, li.MsoListNumberCxSpFirst, div.MsoListNumberCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumberCxSpMiddle, li.MsoListNumberCxSpMiddle, div.MsoListNumberCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumberCxSpLast, li.MsoListNumberCxSpLast, div.MsoListNumberCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList2, li.MsoList2, div.MsoList2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:28.3pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList2CxSpFirst, li.MsoList2CxSpFirst, div.MsoList2CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:28.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList2CxSpMiddle, li.MsoList2CxSpMiddle, div.MsoList2CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:28.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList2CxSpLast, li.MsoList2CxSpLast, div.MsoList2CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:28.3pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList3, li.MsoList3, div.MsoList3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:42.45pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList3CxSpFirst, li.MsoList3CxSpFirst, div.MsoList3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList3CxSpMiddle, li.MsoList3CxSpMiddle, div.MsoList3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList3CxSpLast, li.MsoList3CxSpLast, div.MsoList3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:42.45pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList4, li.MsoList4, div.MsoList4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:56.6pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList4CxSpFirst, li.MsoList4CxSpFirst, div.MsoList4CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:56.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList4CxSpMiddle, li.MsoList4CxSpMiddle, div.MsoList4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:56.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList4CxSpLast, li.MsoList4CxSpLast, div.MsoList4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:56.6pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList5, li.MsoList5, div.MsoList5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:70.75pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList5CxSpFirst, li.MsoList5CxSpFirst, div.MsoList5CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.75pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList5CxSpMiddle, li.MsoList5CxSpMiddle, div.MsoList5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.75pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoList5CxSpLast, li.MsoList5CxSpLast, div.MsoList5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:70.75pt;
+	text-indent:-14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:32.15pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet2CxSpFirst, li.MsoListBullet2CxSpFirst, div.MsoListBullet2CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet2CxSpMiddle, li.MsoListBullet2CxSpMiddle, div.MsoListBullet2CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet2CxSpLast, li.MsoListBullet2CxSpLast, div.MsoListBullet2CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:32.15pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet3, li.MsoListBullet3, div.MsoListBullet3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:46.3pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet3CxSpFirst, li.MsoListBullet3CxSpFirst, div.MsoListBullet3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet3CxSpMiddle, li.MsoListBullet3CxSpMiddle, div.MsoListBullet3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet3CxSpLast, li.MsoListBullet3CxSpLast, div.MsoListBullet3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:46.3pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet4, li.MsoListBullet4, div.MsoListBullet4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:60.45pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet4CxSpFirst, li.MsoListBullet4CxSpFirst, div.MsoListBullet4CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet4CxSpMiddle, li.MsoListBullet4CxSpMiddle, div.MsoListBullet4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet4CxSpLast, li.MsoListBullet4CxSpLast, div.MsoListBullet4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:60.45pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet5, li.MsoListBullet5, div.MsoListBullet5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:74.6pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet5CxSpFirst, li.MsoListBullet5CxSpFirst, div.MsoListBullet5CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:74.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet5CxSpMiddle, li.MsoListBullet5CxSpMiddle, div.MsoListBullet5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:74.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListBullet5CxSpLast, li.MsoListBullet5CxSpLast, div.MsoListBullet5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:74.6pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber2, li.MsoListNumber2, div.MsoListNumber2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:32.15pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber2CxSpFirst, li.MsoListNumber2CxSpFirst, div.MsoListNumber2CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber2CxSpMiddle, li.MsoListNumber2CxSpMiddle, div.MsoListNumber2CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber2CxSpLast, li.MsoListNumber2CxSpLast, div.MsoListNumber2CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:32.15pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber3, li.MsoListNumber3, div.MsoListNumber3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:46.3pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber3CxSpFirst, li.MsoListNumber3CxSpFirst, div.MsoListNumber3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber3CxSpMiddle, li.MsoListNumber3CxSpMiddle, div.MsoListNumber3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber3CxSpLast, li.MsoListNumber3CxSpLast, div.MsoListNumber3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:46.3pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber4, li.MsoListNumber4, div.MsoListNumber4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:60.45pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber4CxSpFirst, li.MsoListNumber4CxSpFirst, div.MsoListNumber4CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber4CxSpMiddle, li.MsoListNumber4CxSpMiddle, div.MsoListNumber4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber4CxSpLast, li.MsoListNumber4CxSpLast, div.MsoListNumber4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:60.45pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber5, li.MsoListNumber5, div.MsoListNumber5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:74.6pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber5CxSpFirst, li.MsoListNumber5CxSpFirst, div.MsoListNumber5CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:74.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber5CxSpMiddle, li.MsoListNumber5CxSpMiddle, div.MsoListNumber5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:74.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListNumber5CxSpLast, li.MsoListNumber5CxSpLast, div.MsoListNumber5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:74.6pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Titel Zchn";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:26.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+p.MsoClosing, li.MsoClosing, div.MsoClosing
+	{mso-style-link:"Grußformel Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:212.6pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoSignature, li.MsoSignature, div.MsoSignature
+	{mso-style-link:"Unterschrift Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:212.6pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Textkörper Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-link:"Textkörper-Zeileneinzug Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue, li.MsoListContinue, div.MsoListContinue
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinueCxSpFirst, li.MsoListContinueCxSpFirst, div.MsoListContinueCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinueCxSpMiddle, li.MsoListContinueCxSpMiddle, div.MsoListContinueCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinueCxSpLast, li.MsoListContinueCxSpLast, div.MsoListContinueCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue2, li.MsoListContinue2, div.MsoListContinue2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:28.3pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue2CxSpFirst, li.MsoListContinue2CxSpFirst, div.MsoListContinue2CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:28.3pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue2CxSpMiddle, li.MsoListContinue2CxSpMiddle, div.MsoListContinue2CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:28.3pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue2CxSpLast, li.MsoListContinue2CxSpLast, div.MsoListContinue2CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:28.3pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue3, li.MsoListContinue3, div.MsoListContinue3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.45pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue3CxSpFirst, li.MsoListContinue3CxSpFirst, div.MsoListContinue3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue3CxSpMiddle, li.MsoListContinue3CxSpMiddle, div.MsoListContinue3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue3CxSpLast, li.MsoListContinue3CxSpLast, div.MsoListContinue3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.45pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue4, li.MsoListContinue4, div.MsoListContinue4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:56.6pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue4CxSpFirst, li.MsoListContinue4CxSpFirst, div.MsoListContinue4CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:56.6pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue4CxSpMiddle, li.MsoListContinue4CxSpMiddle, div.MsoListContinue4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:56.6pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue4CxSpLast, li.MsoListContinue4CxSpLast, div.MsoListContinue4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:56.6pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue5, li.MsoListContinue5, div.MsoListContinue5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:70.75pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue5CxSpFirst, li.MsoListContinue5CxSpFirst, div.MsoListContinue5CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.75pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue5CxSpMiddle, li.MsoListContinue5CxSpMiddle, div.MsoListContinue5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.75pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListContinue5CxSpLast, li.MsoListContinue5CxSpLast, div.MsoListContinue5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:70.75pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoMessageHeader, li.MsoMessageHeader, div.MsoMessageHeader
+	{mso-style-link:"Nachrichtenkopf Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:2.0cm;
+	margin-bottom:.0001pt;
+	text-indent:-2.0cm;
+	line-height:normal;
+	background:#CCCCCC;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Untertitel Zchn";
+	margin-top:42.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:20.0pt;
+	font-family:"Verdana","sans-serif";
+	letter-spacing:.75pt;}
+p.MsoSalutation, li.MsoSalutation, div.MsoSalutation
+	{mso-style-link:"Anrede Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoDate, li.MsoDate, div.MsoDate
+	{mso-style-link:"Datum Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBodyTextFirstIndent, li.MsoBodyTextFirstIndent, div.MsoBodyTextFirstIndent
+	{mso-style-link:"Textkörper-Erstzeileneinzug Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:45.35pt;
+	text-indent:18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBodyTextFirstIndent2, li.MsoBodyTextFirstIndent2, div.MsoBodyTextFirstIndent2
+	{mso-style-link:"Textkörper-Erstzeileneinzug 2 Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:18.0pt;
+	text-indent:18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{mso-style-link:"Textkörper 2 Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:45.35pt;
+	line-height:200%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{mso-style-link:"Textkörper 3 Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{mso-style-link:"Textkörper-Einzug 2 Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	line-height:200%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{mso-style-link:"Textkörper-Einzug 3 Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	line-height:115%;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
+	{margin-top:0cm;
+	margin-right:57.6pt;
+	margin-bottom:5.0pt;
+	margin-left:57.6pt;
+	line-height:115%;
+	border:none;
+	padding:0cm;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#B2AAAF;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{color:#003399;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Dokumentstruktur Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Nur Text Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.5pt;
+	font-family:Consolas;}
+p.MsoAutoSig, li.MsoAutoSig, div.MsoAutoSig
+	{mso-style-link:"E-Mail-Signatur Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+address
+	{mso-style-link:"HTML Adresse Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	font-style:italic;}
+code
+	{font-family:Consolas;}
+kbd
+	{font-family:Consolas;}
+pre
+	{mso-style-link:"HTML Vorformatiert Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:Consolas;}
+samp
+	{font-family:Consolas;}
+tt
+	{font-family:Consolas;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Kommentarthema Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Sprechblasentext Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-link:"Listenabsatz Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Zitat Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:black;
+	font-style:italic;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{mso-style-link:"Intensives Zitat Zchn";
+	margin-top:10.0pt;
+	margin-right:46.8pt;
+	margin-bottom:14.0pt;
+	margin-left:46.8pt;
+	line-height:115%;
+	border:none;
+	padding:0cm;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#B2AAAF;
+	font-weight:bold;
+	font-style:italic;}
+span.MsoSubtleEmphasis
+	{color:gray;
+	font-style:italic;}
+span.MsoIntenseEmphasis
+	{color:#B2AAAF;
+	font-weight:bold;
+	font-style:italic;}
+span.MsoSubtleReference
+	{font-variant:small-caps;
+	color:#4D4E54;
+	text-decoration:underline;}
+span.MsoIntenseReference
+	{font-variant:small-caps;
+	color:#4D4E54;
+	letter-spacing:.25pt;
+	font-weight:bold;
+	text-decoration:underline;}
+span.MsoBookTitle
+	{font-variant:small-caps;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.MsoBibliography, li.MsoBibliography, div.MsoBibliography
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+span.berschrift1Zchn
+	{mso-style-name:"Überschrift 1 Zchn";
+	mso-style-link:"Überschrift 1";
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+span.berschrift2Zchn
+	{mso-style-name:"Überschrift 2 Zchn";
+	mso-style-link:"Überschrift 2";
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+span.berschrift3Zchn
+	{mso-style-name:"Überschrift 3 Zchn";
+	mso-style-link:"Überschrift 3";
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+span.berschrift4Zchn
+	{mso-style-name:"Überschrift 4 Zchn";
+	mso-style-link:"Überschrift 4";
+	font-family:"Verdana","sans-serif";
+	color:#B30037;
+	font-weight:bold;}
+span.KopfzeileZchn
+	{mso-style-name:"Kopfzeile Zchn";
+	mso-style-link:Kopfzeile;
+	font-weight:bold;}
+span.FuzeileZchn
+	{mso-style-name:"Fußzeile Zchn";
+	mso-style-link:Fußzeile;}
+span.SprechblasentextZchn
+	{mso-style-name:"Sprechblasentext Zchn";
+	mso-style-link:Sprechblasentext;
+	font-family:"Tahoma","sans-serif";}
+span.FunotentextZchn
+	{mso-style-name:"Fußnotentext Zchn";
+	mso-style-link:Fußnotentext;}
+p.StandardTableContent, li.StandardTableContent, div.StandardTableContent
+	{mso-style-name:"Standard Table Content";
+	margin:2.85pt;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";}
+span.KommentartextZchn
+	{mso-style-name:"Kommentartext Zchn";
+	mso-style-link:Kommentartext;}
+span.KommentarthemaZchn
+	{mso-style-name:"Kommentarthema Zchn";
+	mso-style-link:Kommentarthema;
+	font-weight:bold;}
+span.berschrift5Zchn
+	{mso-style-name:"Überschrift 5 Zchn";
+	mso-style-link:"Überschrift 5";
+	font-family:"Verdana","sans-serif";
+	font-style:italic;}
+span.berschrift6Zchn
+	{mso-style-name:"Überschrift 6 Zchn";
+	mso-style-link:"Überschrift 6";
+	font-family:"Verdana","sans-serif";
+	color:#5A5257;
+	font-style:italic;}
+span.berschrift7Zchn
+	{mso-style-name:"Überschrift 7 Zchn";
+	mso-style-link:"Überschrift 7";
+	font-family:"Verdana","sans-serif";
+	color:#404040;
+	font-style:italic;}
+span.berschrift8Zchn
+	{mso-style-name:"Überschrift 8 Zchn";
+	mso-style-link:"Überschrift 8";
+	font-family:"Verdana","sans-serif";
+	color:#404040;}
+span.berschrift9Zchn
+	{mso-style-name:"Überschrift 9 Zchn";
+	mso-style-link:"Überschrift 9";
+	font-family:"Verdana","sans-serif";
+	color:#404040;
+	font-style:italic;}
+span.AnredeZchn
+	{mso-style-name:"Anrede Zchn";
+	mso-style-link:Anrede;}
+span.DatumZchn
+	{mso-style-name:"Datum Zchn";
+	mso-style-link:Datum;}
+span.DokumentstrukturZchn
+	{mso-style-name:"Dokumentstruktur Zchn";
+	mso-style-link:Dokumentstruktur;
+	font-family:"Tahoma","sans-serif";}
+span.E-Mail-SignaturZchn
+	{mso-style-name:"E-Mail-Signatur Zchn";
+	mso-style-link:E-Mail-Signatur;}
+span.EndnotentextZchn
+	{mso-style-name:"Endnotentext Zchn";
+	mso-style-link:Endnotentext;}
+p.Fu-Endnotenberschrift1, li.Fu-Endnotenberschrift1, div.Fu-Endnotenberschrift1
+	{mso-style-name:"Fuß\/-Endnotenüberschrift1";
+	mso-style-link:"Fuß\/-Endnotenüberschrift Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+span.Fu-EndnotenberschriftZchn
+	{mso-style-name:"Fuß\/-Endnotenüberschrift Zchn";
+	mso-style-link:"Fuß\/-Endnotenüberschrift1";}
+span.GruformelZchn
+	{mso-style-name:"Grußformel Zchn";
+	mso-style-link:Grußformel;}
+span.HTMLAdresseZchn
+	{mso-style-name:"HTML Adresse Zchn";
+	mso-style-link:"HTML Adresse";
+	font-style:italic;}
+span.HTMLVorformatiertZchn
+	{mso-style-name:"HTML Vorformatiert Zchn";
+	mso-style-link:"HTML Vorformatiert";
+	font-family:Consolas;}
+span.IntensivesZitatZchn
+	{mso-style-name:"Intensives Zitat Zchn";
+	mso-style-link:"Intensives Zitat";
+	color:#B2AAAF;
+	font-weight:bold;
+	font-style:italic;}
+span.MakrotextZchn
+	{mso-style-name:"Makrotext Zchn";
+	mso-style-link:Makrotext;
+	font-family:Consolas;}
+span.NachrichtenkopfZchn
+	{mso-style-name:"Nachrichtenkopf Zchn";
+	mso-style-link:Nachrichtenkopf;
+	font-family:"Verdana","sans-serif";
+	background:#CCCCCC;}
+span.NurTextZchn
+	{mso-style-name:"Nur Text Zchn";
+	mso-style-link:"Nur Text";
+	font-family:Consolas;}
+span.TextkrperZchn
+	{mso-style-name:"Textkörper Zchn";
+	mso-style-link:Textkörper;}
+span.Textkrper2Zchn
+	{mso-style-name:"Textkörper 2 Zchn";
+	mso-style-link:"Textkörper 2";}
+span.Textkrper3Zchn
+	{mso-style-name:"Textkörper 3 Zchn";
+	mso-style-link:"Textkörper 3";}
+span.Textkrper-Einzug2Zchn
+	{mso-style-name:"Textkörper-Einzug 2 Zchn";
+	mso-style-link:"Textkörper-Einzug 2";}
+span.Textkrper-Einzug3Zchn
+	{mso-style-name:"Textkörper-Einzug 3 Zchn";
+	mso-style-link:"Textkörper-Einzug 3";}
+span.Textkrper-ErstzeileneinzugZchn
+	{mso-style-name:"Textkörper-Erstzeileneinzug Zchn";
+	mso-style-link:Textkörper-Erstzeileneinzug;}
+span.Textkrper-ZeileneinzugZchn
+	{mso-style-name:"Textkörper-Zeileneinzug Zchn";
+	mso-style-link:Textkörper-Zeileneinzug;}
+span.Textkrper-Erstzeileneinzug2Zchn
+	{mso-style-name:"Textkörper-Erstzeileneinzug 2 Zchn";
+	mso-style-link:"Textkörper-Erstzeileneinzug 2";}
+span.TitelZchn
+	{mso-style-name:"Titel Zchn";
+	mso-style-link:Titel;
+	font-family:"Verdana","sans-serif";
+	font-weight:bold;}
+span.UnterschriftZchn
+	{mso-style-name:"Unterschrift Zchn";
+	mso-style-link:Unterschrift;}
+span.UntertitelZchn
+	{mso-style-name:"Untertitel Zchn";
+	mso-style-link:Untertitel;
+	font-family:"Verdana","sans-serif";
+	letter-spacing:.75pt;}
+span.ZitatZchn
+	{mso-style-name:"Zitat Zchn";
+	mso-style-link:Zitat;
+	color:black;
+	font-style:italic;}
+p.DocumentInfoBlock, li.DocumentInfoBlock, div.DocumentInfoBlock
+	{mso-style-name:DocumentInfoBlock;
+	mso-style-link:"DocumentInfoBlock Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:4.0cm;
+	text-indent:-4.0cm;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";}
+p.AddressBlock, li.AddressBlock, div.AddressBlock
+	{mso-style-name:AddressBlock;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:16.0pt;
+	font-family:"Verdana","sans-serif";}
+p.StandardNoIndent, li.StandardNoIndent, div.StandardNoIndent
+	{mso-style-name:"Standard No Indent";
+	mso-style-link:"Standard No Indent Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+span.DocumentInfoBlockZchn
+	{mso-style-name:"DocumentInfoBlock Zchn";
+	mso-style-link:DocumentInfoBlock;}
+p.Heading4NoIndent, li.Heading4NoIndent, div.Heading4NoIndent
+	{mso-style-name:"Heading 4 No Indent";
+	mso-style-link:"Heading 4 No Indent Zchn";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#B30037;
+	font-weight:bold;}
+span.StandardNoIndentZchn
+	{mso-style-name:"Standard No Indent Zchn";
+	mso-style-link:"Standard No Indent";}
+span.Heading4NoIndentZchn
+	{mso-style-name:"Heading 4 No Indent Zchn";
+	mso-style-link:"Heading 4 No Indent";
+	font-family:"Verdana","sans-serif";
+	color:#B30037;
+	font-weight:bold;}
+p.HeaderLogoAddress, li.HeaderLogoAddress, div.HeaderLogoAddress
+	{mso-style-name:HeaderLogoAddress;
+	mso-style-link:"HeaderLogoAddress Zchn";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+span.HeaderLogoAddressZchn
+	{mso-style-name:"HeaderLogoAddress Zchn";
+	mso-style-link:HeaderLogoAddress;
+	font-weight:normal;}
+p.Commentdonotpublish, li.Commentdonotpublish, div.Commentdonotpublish
+	{mso-style-name:"Comment \(do not publish\)";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:45.35pt;
+	line-height:115%;
+	background:#CCECFF;
+	border:none;
+	padding:0cm;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.SourceCode, li.SourceCode, div.SourceCode
+	{mso-style-name:SourceCode;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	background:#D9D9D9;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.ScrollListBullet, li.ScrollListBullet, div.ScrollListBullet
+	{mso-style-name:"Scroll List Bullet";
+	mso-style-link:"Scroll List Bullet Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:70.9pt;
+	text-indent:-14.2pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListBullet2, li.ScrollListBullet2, div.ScrollListBullet2
+	{mso-style-name:"Scroll List Bullet 2";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:90.75pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+span.ListenabsatzZchn
+	{mso-style-name:"Listenabsatz Zchn";
+	mso-style-link:Listenabsatz;}
+span.ScrollListBulletZchn
+	{mso-style-name:"Scroll List Bullet Zchn";
+	mso-style-link:"Scroll List Bullet";}
+p.ScrollListBullet1, li.ScrollListBullet1, div.ScrollListBullet1
+	{mso-style-name:"Scroll List Bullet 1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:79.4pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListBullet3, li.ScrollListBullet3, div.ScrollListBullet3
+	{mso-style-name:"Scroll List Bullet 3";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:102.1pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListBullet4, li.ScrollListBullet4, div.ScrollListBullet4
+	{mso-style-name:"Scroll List Bullet 4";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:4.0cm;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListBullet5, li.ScrollListBullet5, div.ScrollListBullet5
+	{mso-style-name:"Scroll List Bullet 5";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:124.75pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListBullet6, li.ScrollListBullet6, div.ScrollListBullet6
+	{mso-style-name:"Scroll List Bullet 6";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:136.1pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListBullet7, li.ScrollListBullet7, div.ScrollListBullet7
+	{mso-style-name:"Scroll List Bullet 7";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:147.45pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListBullet8, li.ScrollListBullet8, div.ScrollListBullet8
+	{mso-style-name:"Scroll List Bullet 8";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:158.8pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber, li.ScrollListNumber, div.ScrollListNumber
+	{mso-style-name:"Scroll List Number";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:79.4pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber1, li.ScrollListNumber1, div.ScrollListNumber1
+	{mso-style-name:"Scroll List Number 1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:79.4pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber2, li.ScrollListNumber2, div.ScrollListNumber2
+	{mso-style-name:"Scroll List Number 2";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:90.75pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber3, li.ScrollListNumber3, div.ScrollListNumber3
+	{mso-style-name:"Scroll List Number 3";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:102.1pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber4, li.ScrollListNumber4, div.ScrollListNumber4
+	{mso-style-name:"Scroll List Number 4";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:4.0cm;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber5, li.ScrollListNumber5, div.ScrollListNumber5
+	{mso-style-name:"Scroll List Number 5";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:124.75pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber6, li.ScrollListNumber6, div.ScrollListNumber6
+	{mso-style-name:"Scroll List Number 6";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:136.1pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber7, li.ScrollListNumber7, div.ScrollListNumber7
+	{mso-style-name:"Scroll List Number 7";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:147.45pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+p.ScrollListNumber8, li.ScrollListNumber8, div.ScrollListNumber8
+	{mso-style-name:"Scroll List Number 8";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:158.8pt;
+	text-indent:-22.7pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:3.0cm 70.9pt 70.9pt 70.9pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=DE-CH link="#003399" vlink=purple>
+
+<div class=WordSection1>
+
+<div style='border:solid red 1.0pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;background:
+red'>
+
+<p class=MsoNormal style='margin-left:0cm;background:red;border:none;
+padding:0cm'><a name=scroll-bookmark-1></a><span lang=FR-CH style='color:white'>A
+word of caution: The current implementation of the API is classified «&nbsp;unstable&nbsp;».
+</span><span style='color:white'>Changes in the API may (and will most
+certainly) occur and will be published in this documentation.</span></p>
+
+</div>
+
+<h1><a name=scroll-bookmark-2>1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Introduction</a></h1>
+
+<p class=MsoNormal>The eSHAB platform allows submitting and fetching
+publications per REST interface. The following formats are supported:</p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>JSON is used by the Web UI and is recommend for external UIs too.</p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span lang=FR-CH
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR-CH>PDF is available per single publication and
+publication list.</span></p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span lang=FR-CH
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR-CH>XML supports some more functions than JSON and
+was implemented especially for external data providers and consumers. The XML
+interface allows submitting multiple publications per once, what is not
+possible with JSON. In this documentation, the main focus is on the XML
+interface.</span></p>
+
+<h1><a name=scroll-bookmark-3>2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Description of the interfaces</a></h1>
+
+<h2><a name=scroll-bookmark-4>2.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Common properties</a></h2>
+
+<h3><a name=scroll-bookmark-5>2.1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Authentication</a></h3>
+
+<p class=MsoNormal><span lang=FR-CH>Dependent on the request, a prior
+authentication is necessary. Authorization requires a user, like in the Web UI.
+Thus, a new user and registration office have to be registered in order to
+execute the following actions:</span></p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Submitting publications</p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span lang=FR-CH
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR-CH>Fetching non-published publications of its
+registration office(s)</span></p>
+
+<p class=MsoNormal><span lang=FR-CH>The authentication works as follows:</span></p>
+
+<p class=ScrollListNumber style='text-indent:-18.0pt'><span lang=FR-CH>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=FR-CH>A POST request is sent to <i>/api/v1/login</i> with <i>username</i>
+and <i>password</i>.</span></p>
+
+<p class=ScrollListNumber style='text-indent:-18.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><span lang=FR-CH>The response has statuc code <i>200 OK and contains a
+X-AUTH-TOKEN </i>header. </span>Are username and password invalid, an error
+code <i>403 FORBIDDEN</i> is returned.</p>
+
+<p class=ScrollListNumber style='text-indent:-18.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><span lang=FR-CH>Whenever a protected resource is requested, the <i>X-AUTH-TOKEN</i>
+header has to be set with the value previously returned. </span>The token
+expires after 30 minutes of inactivity. In this case, the response has the <i>401
+Unauthorized</i> error code.</p>
+
+<h2><a name=scroll-bookmark-6></a>2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>&nbsp;</h2>
+
+<p class=MsoNormal><span lang=FR-CH>A concrete example of a request with <i>curl</i>
+can be found below.</span></p>
+
+<h3><a name=scroll-bookmark-7>2.2.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Formatting option</a></h3>
+
+<p class=MsoNormal><span lang=FR-CH>Whenever a request is sent, that expects
+XML as response format, the following request header has to be set:</span></p>
+
+<p class=MsoNormal><i><span lang=FR-CH> Accept: text/xml</span></i></p>
+
+<p class=MsoNormal><span lang=FR-CH>Dependent on the interface, this might not
+be necessary. But it is suggested to always set it. </span>Otherwise the right
+format is not guaranteed.</p>
+
+<h3><a name=scroll-bookmark-8>2.2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Format of a publication</a></h3>
+
+<p class=MsoNormal><span lang=FR-CH>A publication consists of the following
+elements:</span></p>
+
+<table class=ScrollCode border=1 cellspacing=0 cellpadding=0 style='margin-left:
+ 45.35pt;border:dashed #6199C9 1.0pt'>
+ <tr>
+  <td valign=top style='border:none;padding:8.65pt 2.9pt 12.95pt 2.9pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>&lt;publication&gt;<br>
+      &lt;meta&gt;<br>
+          ...<br>
+      &lt;/meta&gt;<br>
+      &lt;content&gt;<br>
+          ...<br>
+     &lt;/content&gt;<br>
+  &lt;/publication&gt;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>The publication data is mainly divided into two blocks:</p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span lang=FR-CH>meta</span></i><span lang=FR-CH> contains the
+metadata of a publication. </span>This is the same for all publication types.</p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span lang=FR-CH
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span lang=FR-CH>content </span></i><span lang=FR-CH>is the
+main content of the publication. The data structure is different dependent on
+the publication type.</span></p>
+
+<p class=MsoNormal><span lang=FR-CH>The format of a publication looks different
+dependent on the use case. </span>A date is represented in the format <i>yyyy-MM-dd</i>,
+e.g. 2017-04-03 for the third of April 2017. <span lang=FR-CH>The time is added
+as follows: <i>yyyy-MM-ddThh:mm:ss</i>, e.g. 2017-04-03T13:00:00. Both
+corresponds to the ISO standard. Accordingly the timezone can be added at the
+end.</span></p>
+
+<p class=MsoNormal><span lang=FR-CH>Are there multiple values for an attribute,
+the XML element is repeated according. </span>Example: The following
+publicaiton has multiple secondary tenants:</p>
+
+<table class=ScrollCode border=1 cellspacing=0 cellpadding=0 style='margin-left:
+ 45.35pt;border:dashed #6199C9 1.0pt'>
+ <tr>
+  <td valign=top style='border:none;padding:8.65pt 2.9pt 12.95pt 2.9pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>&lt;publication&gt;<br>
+     &lt;meta&gt;<br>
+            &lt;secondaryTenants&gt;<br>
+                  &lt;tenantCode&gt;kabow&lt;/tenantCode&gt;<br>
+                  &lt;publicationDate&gt;2017-04-15&lt;/publicationDate&gt;<br>
+            &lt;/secondaryTenants&gt;<br>
+            &lt;secondaryTenants&gt;<br>
+                  &lt;tenantCode&gt;kabzh&lt;/tenantCode&gt;<br>
+                  &lt;publicationDate&gt;2017-04-15&lt;/publicationDate&gt;<br>
+            &lt;/secondaryTenants&gt;<br>
+     ...</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>Such an attribute's name is always in plural.</p>
+
+<p class=MsoNormal>The following table describes all possible metadata.</p>
+
+<table class=ScrollTableNormal border=1 cellspacing=0 cellpadding=0
+ style='margin-left:45.35pt;border-collapse:collapse;border:none'>
+ <thead>
+  <tr style='page-break-inside:avoid'>
+   <td valign=top style='border:solid windowtext 1.0pt;background:#D9D9D9;
+   padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Attribute name</span></b></p>
+   </td>
+   <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+   background:#D9D9D9;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Description</span></b></p>
+   </td>
+   <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+   background:#D9D9D9;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Data type</span></b></p>
+   </td>
+   <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+   background:#D9D9D9;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Usage</span></b></p>
+   </td>
+   <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+   background:#D9D9D9;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Mandatory</span></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>rubric</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>The unique code the publication's rubric.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Only
+  in output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>subRubric</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>The unique code of the sub-rubric.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>language</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Then language of the publication, given by one of
+  these values: de, fr, it, en.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>registrationOffice</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Contains metadata of the publication's office.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Object</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Only
+  if the user has multiple registration offices.</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>registrationOffice.id</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  office's ID.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>registrationOffice.displayName</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  name of the registration office.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>publicationDate</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  publication date.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Date</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>primaryTenantCode</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>The unique code of the primary tenant, in which the publication
+  is published.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>publicationNumber</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>A unique number that helps identifying the
+  publication.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>No
+  (can be generated)</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>dossierReference</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  dossier reference for internal usage. Unlike all other attributes, this is nested
+  inside &lt;private-meta/&gt;, which appears only if the
+  &quot;includePrivateMeta&quot; parameter is set to <i>true</i>.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>expiryDate</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  publication's expiry data.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Date</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>repeatedPublications</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>For repeated publications, additional dates can be
+  set.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Object</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>No</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>repeatedPublications.publicationDate</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  additional publication date.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Date</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>cantons</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>The cantons of a publication.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>No</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>secondaryTenants</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>If a SHAB/KAB publication needs to be published in
+  additional tenants.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Object</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>No</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>secondaryTenants.tenantCode</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>The additional tenant's code, e.g. <i>shab</i> or <i>kabzh</i>.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>secondaryTenants.publicationDate</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>The publication date of the additional tenant.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Date</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>municipalities</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>If the pulbication can be linked to one or multiple
+  locations.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Object</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>No</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>municipalities.zipCode</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  zip code.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Number</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>municipalities.city</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  location's name, matching the zip code.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>In-
+  and output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Yes</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>creationDate/updateDate</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  date when the publication was created or changed the last time.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Time</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>publicationState</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  state of the publication, i.e. one of:: DRAFT (=Entwurf), SUBMITTED
+  (=Eingereicht), APPROVED (=Freigegeben), PUBLISHED (=Publiziert), CANCELLED
+  (=Annuliert)</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>publicationOriginator</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  user that created the publication.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Object</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>publicationOriginator.id</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  user ID.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>publicationOriginator.displayName</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  first and lastname of the user.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>title</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  title of the publication, in all four languages.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Object</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>title.de,
+  title.fr, title.it, title.en</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  title in German, French, Italian and English.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>legalRemedy</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Dependent on the sub-rubric, a static text explaining
+  the legal background.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Output</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>-</span></p>
+  </td>
+ </tr>
+</table>
+
+<h2><a name=scroll-bookmark-9>2.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Fetching published publications</a></h2>
+
+<p class=MsoNormal><b><span lang=FR-CH>Endpoint</span></b><span lang=FR-CH>:
+GET /api/v1/publications?publicationStates=PUBLISHED</span></p>
+
+<p class=MsoNormal><b><span lang=FR-CH>Response</span></b><span lang=FR-CH>:
+Contains the response code <i>100 OK</i> and the 100 newest publications.</span></p>
+
+<p class=MsoNormal><b><span lang=FR-CH>Parameters</span></b><span lang=FR-CH>:
+The request can be extended with any combinations of the following parameters.
+The request parameters are attached in the form
+...?publicationStates=PUBLISHED&amp;parameter2=value2&amp;parameter3=value3.  A
+new parameter always comes after the &quot;&amp;&quot; character. Parameter
+name and value are separated by &quot;=&quot;. A parameter name in plural can
+be given multiple times. Example:
+publicationStates=PUBLISHED&amp;cantons=BE&amp;cantons=ZH searches after all
+published publications with either canton Zurich (ZH) OR Bern (BE).</span></p>
+
+<table class=ScrollTableNormal border=1 cellspacing=0 cellpadding=0
+ style='margin-left:45.35pt;border-collapse:collapse;border:none'>
+ <thead>
+  <tr style='page-break-inside:avoid'>
+   <td valign=top style='border:solid windowtext 1.0pt;background:#D9D9D9;
+   padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Parameter name</span></b></p>
+   </td>
+   <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+   background:#D9D9D9;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Description</span></b></p>
+   </td>
+   <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+   background:#D9D9D9;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Type</span></b></p>
+   </td>
+   <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+   background:#D9D9D9;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+   <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+   5.0pt;margin-left:2.85pt;line-height:normal'><b><span style='font-size:8.0pt;
+   color:#B30037'>Notes</span></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>keyword</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Searches for one or multiple words within the
+  publication.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>publicationNumbers</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Searches
+  for publications with the given numbers.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>publicationDate.from<br>
+  publicationDate.to</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Filters
+  the search results by the publication dates. &quot;from&quot; is the starting
+  point, &quot;to&quot; the endpoint. If only one value is given, the filter
+  has no start or endpoint.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Date</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>publicationDate.from=2017-01-01&amp;publicationDate.to=2017-01-01
+  searches for publications with the exact date 1.1.2017.</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>rubrics<br>
+  subRubrics</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Filters for rubric and sub-rubric codes. Found
+  publications belong to at least one of those rubrics or sub-rubrics.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>cantons</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Filters by cantons, whereas a canton is given by its
+  short name. </span><span style='font-size:8.0pt'>E.g. BE (Bern) or ZH
+  (Zürich).</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>tenant</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Publications are returned only, if they are published
+  in the the given tenant. The value has to be the tenant's unique code.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Possible
+  values are: <i>shab</i> (=Schweizerisches Handelsamtsblatt), <i>kabzh</i>
+  (=Kantonales Amtsblatt Zürich), <i>kabbe</i> (=KAB Bern), <i>kablu</i> (=KAB
+  Luzern), <i>kabge</i> (=KAB Genf), ...</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>registrationOfficeIds</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Filtering
+  for one or multiple registration offices, given by their IDs.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>content.X</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Searches publications with a custom &lt;content&gt;
+  attribute X.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Depends
+  on the attribute</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Since the content of each sub-rubric is different,
+  only publications of one sub-rubric will be found most likely.</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>requestedPage</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>The
+  default search returns only the first 100 hits, which is the first
+  &quot;page&quot;. </span><span lang=FR-CH style='font-size:8.0pt'>If this
+  parameter is set to a value greater than 0, the according page is returned.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Number</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>The first page has the value &quot;0&quot;. </span><span
+  style='font-size:8.0pt'>&quot;1&quot; means hits 101-200, &quot;2&quot; hits
+  201-300, and so on.</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>pageSize</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>If
+  more than 100 hits are required, the number of hits per page can be chosen
+  with this parameter.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Number</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>More
+  than 2000 hits are not allowed.</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>originatorNames</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span lang=FR-CH
+  style='font-size:8.0pt'>Searches for names of publication originators.</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>Text</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:1.5pt 1.5pt 1.0pt 1.5pt'>
+  <p class=MsoNormal style='margin-top:2.85pt;margin-right:2.85pt;margin-bottom:
+  5.0pt;margin-left:2.85pt;line-height:normal'><span style='font-size:8.0pt'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><b><span lang=FR-CH>Error handling</span></b><span
+lang=FR-CH>: When invalid parameters are given, a <i>400 Invalid Request</i>
+Response code is returned. If the <i>publicationStates</i> parameter was not
+set correctly, a <i>401 Unauthorized</i> or <i>403 Permission denied</i>
+response might be returned, since the user can see only published publications.</span></p>
+
+<h2><a name=scroll-bookmark-10>2.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Submitting publications</a></h2>
+
+<p class=MsoNormal><b><span lang=FR-CH>Endpunkt</span></b><span lang=FR-CH>:
+POST /api/v1/publications/_bulk</span></p>
+
+<p class=MsoNormal><b><span lang=FR-CH>Body</span></b><span lang=FR-CH>:
+Contains one or more publications in the format <i>&lt;publications&gt;&lt;publication&gt;...&lt;/publication&gt;...&lt;/publications&gt;</i>.</span></p>
+
+<p class=MsoNormal><b><span lang=FR-CH>Response</span></b><span lang=FR-CH>: Is
+the request successful, a <i>200 OK</i> and the generated publications are
+returned. The returned publications already contain the generated data, e.g.
+the publication number, if it was not set manually.</span></p>
+
+<p class=MsoNormal><b><span lang=FR-CH>Error handling</span></b><span
+lang=FR-CH>: Is one or more publications erroneous, they are returned with a
+status code <i>400 Invalid Request. </i>The error message is in English and
+contains the erroneous attribute. Example:</span></p>
+
+<table class=ScrollCode border=1 cellspacing=0 cellpadding=0 style='margin-left:
+ 45.35pt;border:dashed #6199C9 1.0pt'>
+ <tr>
+  <td valign=top style='border:none;padding:8.65pt 2.9pt 12.95pt 2.9pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>&lt;publications&gt;<br>
+     &lt;publication&gt;<br>
+            &lt;input&gt;...&lt;/input&gt;<br>
+            &lt;errorMessage&gt;...&lt;/errorMessage&gt;<br>
+     &lt;/publication&gt;<br>
+     ...</span></p>
+  </td>
+ </tr>
+</table>
+
+<h2><a name=scroll-bookmark-11>2.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Checking submitted publications</a></h2>
+
+<p class=MsoNormal><span lang=FR-CH>A publication originator can check the
+status of his publications, before they are published. The endpoint is the same
+as when searching for published publications, but does not need the publication
+state parameter.</span></p>
+
+<p class=MsoNormal><b><span lang=FR-CH>Endpoint</span></b><span lang=FR-CH>:
+GET /api/v1/publications?registrationOfficeIds=[your-id]</span></p>
+
+<p class=MsoNormal><b><span lang=FR-CH>Parameters</span></b><span lang=FR-CH>:
+Additionally to the parameters described above, <i>publicationStates</i> can be
+used with any state. The value of the state is given in the metadata table
+above. The response and error handling is the same as for the publication
+search endpoint.</span></p>
+
+<h1><a name=scroll-bookmark-12>3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Examples</a></h1>
+
+<table class=ScrollInfo border=1 cellspacing=0 cellpadding=0 style='margin-left:
+ 45.35pt;border-collapse:collapse;border:none'>
+ <tr>
+  <td valign=top style='border:solid #9CA6D2 1.0pt;background:#DFEFFD;
+  padding:8.65pt 2.9pt 12.95pt 2.9pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH>The following examples use the
+  command line tool <i>curl</i>. They also use the test environment's domain </span><a
+  href="http://int.eshab.shab.ch"><span lang=FR-CH>int.eshab.shab.ch</span></a><span
+  lang=FR-CH>. It can be replaced by the productive domain </span><a
+  href="http://amtsblattportal.ch"><span lang=FR-CH>amtsblattportal.ch</span></a><span
+  lang=FR-CH>.</span></p>
+  </td>
+ </tr>
+</table>
+
+<h2><a name=scroll-bookmark-13>3.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Login</a></h2>
+
+<table class=ScrollCode border=1 cellspacing=0 cellpadding=0 style='margin-left:
+ 45.35pt;border:dashed #6199C9 1.0pt'>
+ <tr>
+  <td valign=top style='border:none;padding:8.65pt 2.9pt 12.95pt 2.9pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>curl https://int.eshab.shab.ch/api/v1/login
+  --data &quot;username=[your-mail-address]&amp;password=[your-password]&quot;
+  -i</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=FR-CH>This returns the response header <i>X-AUTH-TOKEN</i>,
+which is the authentication token that expires after 30 minutes of inactivity.
+As long as it is active, it must be set as <i>X-AUTH-TOKEN</i> header with any
+subsequent request, or at least with those that require authentication. For
+instance published publicaitons do not need authentication.</span></p>
+
+<p class=MsoNormal><span lang=FR-CH>In the request above, <i>[your-mail-address]</i>
+and<i> [your-password]</i> are replaced through the e-mail address and password
+of the user.</span></p>
+
+<h2><a name=scroll-bookmark-14>3.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Submitting publications</a></h2>
+
+<table class=ScrollCode border=1 cellspacing=0 cellpadding=0 style='margin-left:
+ 45.35pt;border:dashed #6199C9 1.0pt'>
+ <tr>
+  <td valign=top style='border:none;padding:8.65pt 2.9pt 12.95pt 2.9pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Courier New"'>curl https://int.eshab.shab.ch/api/v1/publications/_bulk
+  -H &quot;X-AUTH-TOKEN: [your-token]&quot; -H&quot;CONTENT-TYPE:
+  text/xml&quot; --data-binary &quot;@publications.xml&quot;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Courier New"'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=FR-CH>This request submits publications, that are
+defined in <i>publications.xml. </i>The filename can be different,<i> curl</i>
+just transforms the file content to the request body. </span>Important are the
+request headers:</p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>X-AUTH-TOKEN: Contains the token that was retrieved with the
+&quot;Login&quot; example. It grants permissions for submitting publications in
+the name of the logged in user.</p>
+
+<p class=ScrollListBullet style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>CONTENT-TYPE: Must be set, so the request is interpreted as XML.</p>
+
+<p class=MsoNormal><span lang=FR-CH>Sample content of <i>publications.xml</i>:</span></p>
+
+<table class=ScrollCode border=1 cellspacing=0 cellpadding=0 style='margin-left:
+ 45.35pt;border:dashed #6199C9 1.0pt'>
+ <tr>
+  <td valign=top style='border:none;padding:8.65pt 2.9pt 12.95pt 2.9pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>&lt;?xml version=&quot;1.0&quot;
+  encoding=&quot;UTF-8&quot;?&gt;<br>
+  &lt;publications
+  xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+  xsi:noNamespaceSchemaLocation=&quot;&quot;&gt;<br>
+      &lt;publication&gt;<br>
+          &lt;!-- </span><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Courier New"'>Meta will contain data for global step 1 (well
+  known information) --&gt;<br>
+          &lt;meta&gt;<br>
+              &lt;!-- </span><span lang=FR-CH style='font-size:9.0pt;
+  line-height:115%;font-family:"Courier New"'>Mandatory fields --&gt;<br>
+              &lt;subRubric&gt;BP-ZH06&lt;/subRubric&gt;<br>
+              &lt;language&gt;de&lt;/language&gt;<br>
+              &lt;registrationOffice&gt;&lt;!-- Does not have to be set, if
+  user has only one office --&gt;<br>
+                  &lt;id&gt;officebp&lt;/id&gt;<br>
+              &lt;/registrationOffice&gt;<br>
+              &lt;publicationDate&gt;2017-04-10&lt;/publicationDate&gt;<br>
+              &lt;expiryDate&gt;2018-12-31&lt;/expiryDate&gt;<br>
+              &lt;!-- End of mandatory fields --&gt;<br>
+              &lt;!-- Publication number will be generated if this field is not
+  submitted --&gt;<br>
+             
+  &lt;publicationNumber&gt;BP06-0000000001&lt;/publicationNumber&gt;<br>
+              &lt;dossierReference&gt;BP06 Dossier&lt;/dossierReference&gt;<br>
+              &lt;repeatedPublications&gt;<br>
+                  &lt;publicationDate&gt;2017-01-15&lt;/publicationDate&gt;<br>
+              &lt;/repeatedPublications&gt;<br>
+              &lt;repeatedPublications&gt;<br>
+                  &lt;publicationDate&gt;2017-04-01&lt;/publicationDate&gt;<br>
+              &lt;/repeatedPublications&gt;<br>
+              &lt;cantons&gt;ZH&lt;/cantons&gt;<br>
+              &lt;cantons&gt;BE&lt;/cantons&gt;<br>
+              &lt;secondaryTenants&gt;<br>
+                  &lt;tenantCode&gt;kabow&lt;/tenantCode&gt;<br>
+                  &lt;publicationDate&gt;2017-04-15&lt;/publicationDate&gt;<br>
+              &lt;/secondaryTenants&gt;<br>
+              &lt;secondaryTenants&gt;<br>
+                  &lt;tenantCode&gt;kabgl&lt;/tenantCode&gt;<br>
+                  &lt;publicationDate&gt;2017-04-15&lt;/publicationDate&gt;<br>
+              &lt;/secondaryTenants&gt;<br>
+              &lt;municipalities&gt;<br>
+                  &lt;zipCode&gt;3020&lt;/zipCode&gt;<br>
+                  &lt;city&gt;Langenhof&lt;/city&gt;<br>
+              &lt;/municipalities&gt;<br>
+              &lt;municipalities&gt;<br>
+                  &lt;zipCode&gt;3478&lt;/zipCode&gt;<br>
+                  &lt;city&gt;Bern&lt;/city&gt;<br>
+              &lt;/municipalities&gt;<br>
+          &lt;/meta&gt;<br>
+          &lt;!-- Content will contain data for step 2 (sub-rubric dependent
+  information) --&gt;<br>
+          &lt;content&gt;<br>
+              &lt;district&gt;Kreis 1&lt;/district&gt;<br>
+              &lt;bauprojekt&gt;<br>
+                  &lt;bauherrschaft&gt;<br>
+                      &lt;bauherr&gt;Person 1&lt;/bauherr&gt;<br>
+                      &lt;address&gt;<br>
+                          &lt;street&gt;Strass 1&lt;/street&gt;<br>
+                          &lt;zipCode&gt;1202&lt;/zipCode&gt;<br>
+                          &lt;city&gt;Ort 1&lt;/city&gt;<br>
+                      &lt;/address&gt;<br>
+                  &lt;/bauherrschaft&gt;<br>
+                  &lt;bauherrschaft&gt;<br>
+                      &lt;bauherr&gt;Person 2&lt;/bauherr&gt;<br>
+                      &lt;address&gt;<br>
+                          &lt;street&gt;Strass 2&lt;/street&gt;<br>
+                          &lt;zipCode&gt;1202&lt;/zipCode&gt;<br>
+                          &lt;city&gt;Ort 2&lt;/city&gt;<br>
+                      &lt;/address&gt;<br>
+                  &lt;/bauherrschaft&gt;<br>
+                  &lt;checkDelegationBuildingContractor&gt;false&lt;/checkDelegationBuildingContractor&gt;<br>
+                  &lt;projectFramer&gt;<br>
+                      &lt;type&gt;buildingContractor&lt;/type&gt;<br>
+                  &lt;/projectFramer&gt;<br>
+                  &lt;projectDescription&gt;Project&lt;/projectDescription&gt;<br>
+                  &lt;location&gt;<br>
+                      &lt;street&gt;Weissenstrassen&lt;/street&gt;<br>
+                      &lt;zipCode&gt;1234&lt;/zipCode&gt;<br>
+                      &lt;city&gt;Bern&lt;/city&gt;<br>
+                  &lt;/location&gt;<br>
+                  &lt;cadastre&gt;BP06 Cadastre&lt;/cadastre&gt;<br>
+                  &lt;buildingZone&gt;Center&lt;/buildingZone&gt;<br>
+                  &lt;bauherrschaftvertretung&gt;<br>
+                      &lt;address&gt;Geneve&lt;/address&gt;<br>
+                  &lt;/bauherrschaftvertretung&gt;<br>
+              &lt;/bauprojekt&gt;<br>
+              &lt;access&gt;Die Pläne liegen 20 Tage ab Ausschreibedatum bei
+  der Gemeindeverwaltung bzw. beim Baupolizeiamt auf.<br>
+                  </span><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Courier New"'>Erfolgt die Ausschreibung in mehreren
+  Publikationsorganen, so gilt das Datum der letzten Ausschreibung.<br>
+              &lt;/access&gt;<br>
+              &lt;legalRemedy&gt;Während der Planauflage können
+  Baurechtsentscheide schriftlich bei der Baubehörde eingefordert<br>
+                  werden. Wer das Begehren nicht innert dieser Frist stellt,
+  hat das Rekursrecht verwirkt. Für die<br>
+                  Zustellung baurechtlicher Entscheide kann eine Kanzleigebühr
+  erhoben werden.<br>
+              &lt;/legalRemedy&gt;<br>
+              &lt;remarks&gt;Bermkugen&lt;/remarks&gt;<br>
+          &lt;/content&gt;<br>
+          &lt;patterns&gt;<br>
+              &lt;city&gt;City&lt;/city&gt;<br>
+              &lt;title&gt;Bauprojekt in&lt;/title&gt;<br>
+          &lt;/patterns&gt;<br>
+      &lt;/publication&gt;<br>
+  &lt;/publications&gt;</span></p>
+  </td>
+ </tr>
+</table>
+
+<h2><a name=scroll-bookmark-15>3.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Checking submitted publications</a></h2>
+
+<p class=MsoNormal><span lang=FR-CH>Let us assume that we have submitted
+publications with publication number A and B for the registration office <i>myOffice</i>.
+These values are either sent within the XML structure or - if generated - can
+be read from the response. In this case, the state of the publications can be
+requested as follows:</span></p>
+
+<table class=ScrollCode border=1 cellspacing=0 cellpadding=0 style='margin-left:
+ 45.35pt;border:dashed #6199C9 1.0pt'>
+ <tr>
+  <td valign=top style='border:none;padding:8.65pt 2.9pt 12.95pt 2.9pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:12.95pt;margin-bottom:
+  5.0pt;margin-left:8.65pt'><span lang=FR-CH style='font-size:9.0pt;line-height:
+  115%;font-family:"Courier New"'>curl
+  https://int.eshab.shab.ch/api/v1/publications?registrationOfficeIds=myOffice&amp;publicationNumbers=AW01-308814108&amp;publicationNumbers=AW01-948856028
+  -H &quot;X-AUTH-TOKEN: [your-token]&quot; -H &quot;CONTENT-TYPE:
+  text/xml&quot;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=FR-CH>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=FR-CH>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
