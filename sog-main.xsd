@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) von Christian Müller (Staatssekretariat für Wirtschaft SECO) bearbeitet -->
+<!-- W3C Schema erstellt mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:eCH-0010="http://www.ech.ch/xmlns/eCH-0010/6">
+	<xs:import namespace="http://www.ech.ch/xmlns/eCH-0010/6" schemaLocation="http://www.ech.ch/xmlns/eCH-0010/6/eCH-0010-6-0.xsd"/>
+	<xs:include schemaLocation="C:\Users\christian.mueller\Desktop\Schnittstellen_eSHAB\BP_Message.xsd"/>
+	<xs:include schemaLocation="C:\Users\christian.mueller\Desktop\Schnittstellen_eSHAB\CR_Message.xsd"/>
+	<xs:include schemaLocation="C:\Users\christian.mueller\Desktop\Schnittstellen_eSHAB\EM_Message.xsd"/>
+	<xs:element name="publications">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="publication" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="meta">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="rubric" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="subRubric" type="xs:string"/>
+										<xs:element name="language">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="de"/>
+													<xs:enumeration value="fr"/>
+													<xs:enumeration value="it"/>
+													<xs:enumeration value="en"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element ref="registrationOffice" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>ONLY MANDATORY, IF REGISTRATION OFFICE CONTAINS MORE THAN ONE PUBLICATION ORIGINATOR</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationDate" type="xs:date"/>
+										<xs:element name="primaryTenantCode" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationNumber" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string"/>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="dossierReference">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="Irgend eine interne Referenz"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="expiryDate">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:date"/>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element ref="repeatedPublications" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="cantons" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element ref="secondaryTenants" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element ref="municipalities" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="creationDate" type="xs:dateTime" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="updateDate" type="xs:dateTime" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationState" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="DRAFT"/>
+													<xs:enumeration value="SUBMITTED"/>
+													<xs:enumeration value="APPROVED"/>
+													<xs:enumeration value="PUBLISHED"/>
+													<xs:enumeration value="CANCELLED"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="publicationOriginator" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY. CORRESPONDS TO THE IMPORT USER LOGIN  </xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id"/>
+													<xs:element name="displayName"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="title" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="de"/>
+													<xs:element name="fr"/>
+													<xs:element name="it"/>
+													<xs:element name="en"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="legalRemedy" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="content"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="municipalities">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="zipCode" type="eCH-0010:swissZipCodeType">
+					<xs:annotation>
+						<xs:documentation>CORRESPONDS TO eCH-0010:swissZipCodeType</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="city" type="eCH-0010:townType">
+					<xs:annotation>
+						<xs:documentation>CORRESPONDS TO eCH-0010:townType</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="registrationOffice">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id"/>
+				<xs:element name="displayName" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>EXPORT ONLY</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="publicationDates">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="publicationDate" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="secondaryTenants">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="tenantCode"/>
+				<xs:element name="publicationDate"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="repeatedPublications">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="publicationDate" type="xs:date"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="content"/>
+	<xs:element name="BP_MessageType" type="BP_MessageType" substitutionGroup="content"/>
+	<xs:element name="EM_MessageType" type="EM_MessageType" substitutionGroup="content"/>
+	<xs:element name="CR_MessageType" type="CR_MessageType" substitutionGroup="content"/>
+</xs:schema>
