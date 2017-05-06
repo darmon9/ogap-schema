@@ -179,8 +179,5 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="content"/>
-	<xs:element name="BP_MessageType" type="BP_MessageType" substitutionGroup="content"/>
-	<xs:element name="EM_MessageType" type="EM_MessageType" substitutionGroup="content"/>
-	<xs:element name="CR_MessageType" type="CR_MessageType" substitutionGroup="content"/>
+	<xs:element name="content" type="xs:anyType"/>
 </xs:schema>
