@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) von Christian Müller (Staatssekretariat für Wirtschaft SECO) bearbeitet -->
+<!-- W3C Schema erstellt mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:eCH-0010="http://www.ech.ch/xmlns/eCH-0010/6">
+	<xs:import namespace="http://www.ech.ch/xmlns/eCH-0010/6" schemaLocation="http://www.ech.ch/xmlns/eCH-0010/6/eCH-0010-6-0.xsd"/>
+	<xs:element name="publications">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="publication" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="meta">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="rubric" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="subRubric" type="xs:string"/>
+										<xs:element name="language">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="de"/>
+													<xs:enumeration value="fr"/>
+													<xs:enumeration value="it"/>
+													<xs:enumeration value="en"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="registrationOffice" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>ONLY MANDATORY, IF REGISTRATION OFFICE CONTAINS MORE THAN ONE PUBLICATION ORIGINATOR</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id"/>
+													<xs:element name="displayName" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>EXPORT ONLY</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="publicationDate" type="xs:date"/>
+										<xs:element name="primaryTenantCode" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationNumber" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string"/>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="dossierReference" type="xs:string"/>
+										<xs:element name="expiryDate">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:date"/>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="repeatedPublications" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="publicationDate" type="xs:date"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="cantons" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="secondaryTenants" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="tenantCode"/>
+													<xs:element name="publicationDate"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="municipalities" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="zipCode" type="eCH-0010:swissZipCodeType">
+														<xs:annotation>
+															<xs:documentation>CORRESPONDS TO eCH-0010:swissZipCodeType</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="city" type="eCH-0010:townType">
+														<xs:annotation>
+															<xs:documentation>CORRESPONDS TO eCH-0010:townType</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="creationDate" type="xs:dateTime" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="updateDate" type="xs:dateTime" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationState" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="DRAFT"/>
+													<xs:enumeration value="SUBMITTED"/>
+													<xs:enumeration value="APPROVED"/>
+													<xs:enumeration value="PUBLISHED"/>
+													<xs:enumeration value="CANCELLED"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="publicationOriginator" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY. CORRESPONDS TO THE IMPORT USER LOGIN  </xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id"/>
+													<xs:element name="displayName"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="title" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="de"/>
+													<xs:element name="fr"/>
+													<xs:element name="it"/>
+													<xs:element name="en"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="legalRemedy" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="content"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="BR_MessageType">
+		<xs:sequence>
+			<xs:annotation>
+				<xs:documentation>Notice: The list "cantons" is handled in the element "root.meta.canton"</xs:documentation>
+			</xs:annotation>
+			<xs:choice>
+				<xs:element name="debtorCompany">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="companyName" type="xs:string"/>
+							<xs:element name="uid" type="xs:string">
+								<xs:annotation>
+									<xs:documentation>UID des Eintragungs-Objekts.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="legalFormCode">
+								<xs:annotation>
+									<xs:documentation>Rechtsform. Code gemäss separater Liste. --> Anm. Müller: Kann die Rechtsform im Klartext in der jeweiligen Meldungssprache mitgegeben werden?</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="address">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="street" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Strasse und Hausnummer bitte zusammenführen</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="zipCode" type="xs:integer" minOccurs="0"/>
+										<xs:element name="city" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>Kann auch sein: "ohne Domizil"</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="debtorPerson" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="prename" type="xs:string"/>
+							<xs:element name="addition" type="xs:string" minOccurs="0"/>
+							<xs:element name="additionCustom" type="xs:string" minOccurs="0"/>
+							<xs:element name="profession" type="xs:string" minOccurs="0"/>
+							<xs:element name="placeOfOrigin" type="xs:string" minOccurs="0"/>
+							<xs:element name="countryOfOrigin" type="xs:string"/>
+							<xs:element name="dateOfBirth" type="xs:date" minOccurs="0"/>
+							<xs:element name="dateOfDeath" type="xs:date" minOccurs="0"/>
+							<xs:element name="address">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="street" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Strasse und Hausnummer bitte zusammenführen</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="zipCode" minOccurs="0"/>
+										<xs:element name="city" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Kann auch sein: "ohne Domizil"</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="country"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+			<xs:element name="or731b" type="xs:boolean"/>
+			<xs:element name="resolutionDate" type="xs:date"/>
+			<xs:element name="remarks" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="content" type="BR_MessageType"/>
+</xs:schema>
