@@ -26,10 +26,20 @@
 												</xs:restriction>
 											</xs:simpleType>
 										</xs:element>
-										<xs:element ref="registrationOffice" minOccurs="0">
+										<xs:element name="registrationOffice" minOccurs="0">
 											<xs:annotation>
 												<xs:documentation>ONLY MANDATORY, IF REGISTRATION OFFICE CONTAINS MORE THAN ONE PUBLICATION ORIGINATOR</xs:documentation>
 											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id"/>
+													<xs:element name="displayName" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>EXPORT ONLY</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
 										</xs:element>
 										<xs:element name="publicationDate" type="xs:date"/>
 										<xs:element name="primaryTenantCode" type="xs:string" minOccurs="0">
@@ -51,10 +61,38 @@
 												<xs:restriction base="xs:date"/>
 											</xs:simpleType>
 										</xs:element>
-										<xs:element ref="repeatedPublications" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="repeatedPublications" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="publicationDate" type="xs:date"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
 										<xs:element name="cantons" minOccurs="0" maxOccurs="unbounded"/>
-										<xs:element ref="secondaryTenants" minOccurs="0" maxOccurs="unbounded"/>
-										<xs:element ref="municipalities" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="secondaryTenants" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="tenantCode"/>
+													<xs:element name="publicationDate"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="municipalities" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="zipCode" type="eCH-0010:swissZipCodeType">
+														<xs:annotation>
+															<xs:documentation>CORRESPONDS TO eCH-0010:swissZipCodeType</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="city" type="eCH-0010:townType">
+														<xs:annotation>
+															<xs:documentation>CORRESPONDS TO eCH-0010:townType</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
 										<xs:element name="creationDate" type="xs:dateTime" minOccurs="0">
 											<xs:annotation>
 												<xs:documentation>EXPORT ONLY</xs:documentation>
@@ -111,67 +149,74 @@
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="content" type="WA_MessageType">
-								<xs:annotation>
-									<xs:documentation>Content of Message</xs:documentation>
-								</xs:annotation>
-							</xs:element>
+							<xs:element ref="content"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="municipalities">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="zipCode" type="eCH-0010:swissZipCodeType">
-					<xs:annotation>
-						<xs:documentation>CORRESPONDS TO eCH-0010:swissZipCodeType</xs:documentation>
-					</xs:annotation>
-				</xs:element>
-				<xs:element name="city" type="eCH-0010:townType">
-					<xs:annotation>
-						<xs:documentation>CORRESPONDS TO eCH-0010:townType</xs:documentation>
-					</xs:annotation>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="registrationOffice">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="id"/>
-				<xs:element name="displayName" minOccurs="0">
-					<xs:annotation>
-						<xs:documentation>EXPORT ONLY</xs:documentation>
-					</xs:annotation>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="publicationDates">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="publicationDate" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="secondaryTenants">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="tenantCode"/>
-				<xs:element name="publicationDate"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="repeatedPublications">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="publicationDate" type="xs:date"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="content" type="xs:anyType"/>
-	<xs:element name="WA_MessageType" type="WA_MessageType" substitutionGroup="content"/>
+	<xs:complexType name="WA_MessageType">
+		<xs:sequence>
+			<xs:annotation>
+				<xs:documentation>Notice: The list "cantons" is handled in the element "root.meta.canton"</xs:documentation>
+			</xs:annotation>
+			<xs:element name="typeOfApproval">
+				<xs:annotation>
+					<xs:documentation>Informationen, die bei allen drei Meldungstypen vorkommen. Bei Mutationen: neue Werte</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="company">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="companyName"/>
+						<xs:element name="uid">
+							<xs:annotation>
+								<xs:documentation>UID des Eintragungs-Objekts.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="legalFormCode">
+							<xs:annotation>
+								<xs:documentation>Rechtsform. Code gemäss separater Liste. --> Anm. Müller: Kann die Rechtsform im Klartext in der jeweiligen Meldungssprache mitgegeben werden?</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="address">
+							<xs:annotation>
+								<xs:documentation>Domiziladresse, immer in der Schweiz!</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="addressLine" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>Anm. Müller: Brauchen wir die beiden Adress-Felder? Können diese ebenfalls mit Street verbunden werden</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="street" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>Strasse und Hausnummer bitte zusammenführen</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="zipCode" minOccurs="0"/>
+									<xs:element name="city">
+										<xs:annotation>
+											<xs:documentation>Kann auch sein: "ohne Domizil"</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="referenceNo" type="xs:string"/>
+			<xs:element name="facilityNo" type="xs:string"/>
+			<xs:element name="companyPart" type="xs:string"/>
+			<xs:element name="justification" type="xs:string"/>
+			<xs:element name="personel" type="xs:string"/>
+			<xs:element name="dateFrom" type="xs:date"/>
+			<xs:element name="dateTo" type="xs:date"/>
+			<xs:element name="approvalAddendum" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="content" type="WA_MessageType"/>
 </xs:schema>
