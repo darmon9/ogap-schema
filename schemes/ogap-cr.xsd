@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) von Christian Müller (Staatssekretariat für Wirtschaft SECO) bearbeitet -->
+<!-- W3C Schema erstellt mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:eCH-0010="http://www.ech.ch/xmlns/eCH-0010/6">
+	<xs:import namespace="http://www.ech.ch/xmlns/eCH-0010/6" schemaLocation="http://www.ech.ch/xmlns/eCH-0010/6/eCH-0010-6-0.xsd"/>
+	<xs:element name="publications">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="publication" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="meta">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="rubric" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="subRubric" type="xs:string"/>
+										<xs:element name="language">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="de"/>
+													<xs:enumeration value="fr"/>
+													<xs:enumeration value="it"/>
+													<xs:enumeration value="en"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="registrationOffice" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>ONLY MANDATORY, IF REGISTRATION OFFICE CONTAINS MORE THAN ONE PUBLICATION ORIGINATOR</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id"/>
+													<xs:element name="displayName" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>EXPORT ONLY</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="publicationDate" type="xs:date"/>
+										<xs:element name="primaryTenantCode" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationNumber" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string"/>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="dossierReference" type="xs:string"/>
+										<xs:element name="expiryDate">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:date"/>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="repeatedPublications" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="publicationDate" type="xs:date"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="cantons" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="secondaryTenants" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="tenantCode"/>
+													<xs:element name="publicationDate"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="municipalities" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="zipCode" type="eCH-0010:swissZipCodeType">
+														<xs:annotation>
+															<xs:documentation>CORRESPONDS TO eCH-0010:swissZipCodeType</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="city" type="eCH-0010:townType">
+														<xs:annotation>
+															<xs:documentation>CORRESPONDS TO eCH-0010:townType</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="creationDate" type="xs:dateTime" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="updateDate" type="xs:dateTime" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationState" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="DRAFT"/>
+													<xs:enumeration value="SUBMITTED"/>
+													<xs:enumeration value="APPROVED"/>
+													<xs:enumeration value="PUBLISHED"/>
+													<xs:enumeration value="CANCELLED"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="publicationOriginator" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY. CORRESPONDS TO THE IMPORT USER LOGIN  </xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id"/>
+													<xs:element name="displayName"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="title" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="de"/>
+													<xs:element name="fr"/>
+													<xs:element name="it"/>
+													<xs:element name="en"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="legalRemedy" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="content"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="CR_MessageType">
+		<xs:sequence>
+			<xs:element name="publicationTextCurrent">
+				<xs:annotation>
+					<xs:documentation>Publikationstext, mit eingestreuten XML-tags. Achtung: Hier werden nicht mehr die tags aus dem 25-jährigen Edifact-Format verwendet, sondern die tags aus dem HR-Verbund.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType mixed="true"/>
+			</xs:element>
+			<xs:element name="publicationTextPrev">
+				<xs:annotation>
+					<xs:documentation>Publikationstext, mit eingestreuten XML-tags. Achtung: Hier werden nicht mehr die tags aus dem 25-jährigen Edifact-Format verwendet, sondern die tags aus dem HR-Verbund.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType mixed="true"/>
+			</xs:element>
+			<xs:element name="commonsCurrent">
+				<xs:annotation>
+					<xs:documentation>Informationen, die bei allen drei Meldungstypen vorkommen. Bei Mutationen: neue Werte</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="company">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="uid">
+										<xs:annotation>
+											<xs:documentation>UID des Eintragungs-Objekts.</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="companyName"/>
+									<xs:element name="translations" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>Übersetzungen (fakultativ). Anm. Müller: Ist es möglich, alle Sprachen in einem Feld/String zu übergeben? So muss seitens SECO nicht über das Element iteriert werden.</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="seat">
+										<xs:annotation>
+											<xs:documentation>Sitz. </xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="additionalSeat" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>BFS-Nummer. i.d.R. nur 1 Sitz. Nestlé, UBS und Nationalbank haben 2 Sitze.</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="legalFormCode">
+										<xs:annotation>
+											<xs:documentation>Rechtsform. Code gemäss separater Liste. --> Anm. Müller: Kann die Rechtsform im Klartext in der jeweiligen Meldungssprache mitgegeben werden?</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="legalFormText"/>
+									<xs:element name="address">
+										<xs:annotation>
+											<xs:documentation>Domiziladresse, immer in der Schweiz!</xs:documentation>
+										</xs:annotation>
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="addressLine" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Anm. Müller: Brauchen wir die beiden Adress-Felder? Können diese ebenfalls mit Street verbunden werden</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="street" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Strasse und Hausnummer bitte zusammenführen</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="zipCode" minOccurs="0"/>
+												<xs:element name="city">
+													<xs:annotation>
+														<xs:documentation>Kann auch sein: "ohne Domizil"</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="purpose" minOccurs="0"/>
+						<xs:element name="capital" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Angaben zum Kapital (nur bei Kapitalgesellschaften)</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="nominal">
+										<xs:annotation>
+											<xs:documentation>nominal</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="nominalUnit"/>
+									<xs:element name="paid">
+										<xs:annotation>
+											<xs:documentation>liberiert; bei GmbH: immer gleich wie nominal</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="paidUnit"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="revision" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Angaben zur Revisionsstelle bzw. zum Opting Out</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:choice>
+									<xs:element name="optingOut">
+										<xs:annotation>
+											<xs:documentation>Verzicht auf Revision</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="revisionCompany" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="uid"/>
+												<xs:element name="companyText"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:choice>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="headOffice" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Angaben zum Hauptsitz (nur bei Zweigniederlassungen)</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="uid">
+										<xs:annotation>
+											<xs:documentation>Nur bei schweizerischem Hauptsitz</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="companyText">
+										<xs:annotation>
+											<xs:documentation>Freier Text (Firmenname iim Klartext)</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="commonsPrev" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Informationen, die bei allen drei Meldungstypen vorkommen. Bei Mutationen: neue Werte</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="company">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="uid">
+										<xs:annotation>
+											<xs:documentation>UID des Eintragungs-Objekts.</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="companyName"/>
+									<xs:element name="translations" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>Übersetzungen (fakultativ). Anm. Müller: Ist es möglich, alle Sprachen in einem Feld/String zu übergeben? So muss seitens SECO nicht über das Element iteriert werden.</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="seat">
+										<xs:annotation>
+											<xs:documentation>Sitz. </xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="additionalSeat" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>BFS-Nummer. i.d.R. nur 1 Sitz. Nestlé, UBS und Nationalbank haben 2 Sitze.</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="legalFormCode">
+										<xs:annotation>
+											<xs:documentation>Rechtsform. Code gemäss separater Liste. --> Anm. Müller: Kann die Rechtsform im Klartext in der jeweiligen Meldungssprache mitgegeben werden?</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="legalFormText"/>
+									<xs:element name="address">
+										<xs:annotation>
+											<xs:documentation>Domiziladresse, immer in der Schweiz!</xs:documentation>
+										</xs:annotation>
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="addressLine" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Anm. Müller: Brauchen wir die beiden Adress-Felder? Können diese ebenfalls mit Street verbunden werden</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="street" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Strasse und Hausnummer bitte zusammenführen</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="zipCode" minOccurs="0"/>
+												<xs:element name="city">
+													<xs:annotation>
+														<xs:documentation>Kann auch sein: "ohne Domizil"</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="purpose" minOccurs="0"/>
+						<xs:element name="capital" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Angaben zum Kapital (nur bei Kapitalgesellschaften)</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="nominal">
+										<xs:annotation>
+											<xs:documentation>nominal</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="paid">
+										<xs:annotation>
+											<xs:documentation>liberiert; bei GmbH: immer gleich wie nominal</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="revision" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Angaben zur Revisionsstelle bzw. zum Opting Out</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:choice>
+									<xs:element name="optingOut">
+										<xs:annotation>
+											<xs:documentation>Verzicht auf Revision</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="revisionCompany" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="uid"/>
+												<xs:element name="companyText"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:choice>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="headOffice" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Angaben zum Hauptsitz (nur bei Zweigniederlassungen)</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="uid">
+										<xs:annotation>
+											<xs:documentation>Nur bei schweizerischem Hauptsitz</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="companyText">
+										<xs:annotation>
+											<xs:documentation>Freier Text (Firmenname iim Klartext)</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="transaction">
+				<xs:annotation>
+					<xs:documentation>Typ der Meldung</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:choice>
+						<xs:element name="registration">
+							<xs:annotation>
+								<xs:documentation>Neueintrag</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="update">
+							<xs:annotation>
+								<xs:documentation>Mutation</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="changements">
+										<xs:annotation>
+											<xs:documentation>Änderungen</xs:documentation>
+										</xs:annotation>
+										<xs:complexType>
+											<xs:sequence minOccurs="0">
+												<xs:annotation>
+													<xs:documentation>Es können mehrere Änderungen vorkommen, aber jede nur 1x.</xs:documentation>
+												</xs:annotation>
+												<xs:element name="nameChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Änderung der Hauptbezeichnung und/order Übersetzungen</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="legalStatusChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Änderung der Rechtsform</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="seatChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Neuer Sitz (d.h. Sitz in anderer politischer Gemeinde); führt immer auch zu einer Änderung der Domiziladresse.</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="addressChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Änderung der Domiziladresse; kann auch in derselben politischen Gemeinde sein.</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="purposeChanged" type="xs:boolean" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Zweck-Änderung</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="capitalChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Kapitalherauf- oder herabsetzung, Änderung der Liberierung, Stückelung</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="statusChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Max. 1 Status-Änderung pro Meldung</xs:documentation>
+													</xs:annotation>
+													<xs:complexType>
+														<xs:choice>
+															<xs:element name="statusChangedBankruptcy">
+																<xs:annotation>
+																	<xs:documentation>Konkurs-Eröffnung</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+															<xs:element name="statusChangedSuspension">
+																<xs:annotation>
+																	<xs:documentation>Aufschiebende Wirkung im Konkurs-Verfahren</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+															<xs:element name="statusChangedDismissalBank">
+																<xs:annotation>
+																	<xs:documentation>Aufhebung des Konkurses</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+															<xs:element name="statusChangedRevocationBank">
+																<xs:annotation>
+																	<xs:documentation>Widerruf des Konkurses</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+															<xs:element name="statusChangedCancellationBank">
+																<xs:annotation>
+																	<xs:documentation>Einstellung des Konkurses</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+															<xs:element name="statusChangedLiquidation">
+																<xs:annotation>
+																	<xs:documentation>Liquidations-Eröffnung</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+															<xs:element name="statusChangedRevocationLiq">
+																<xs:annotation>
+																	<xs:documentation>Widerruf der Liquidation</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+															<xs:element name="statusChangedReentry">
+																<xs:annotation>
+																	<xs:documentation>Wiedereintragung</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+															<xs:element name="statusChangedReapplication">
+																<xs:annotation>
+																	<xs:documentation>Erneute Eintragung</xs:documentation>
+																</xs:annotation>
+															</xs:element>
+														</xs:choice>
+													</xs:complexType>
+												</xs:element>
+												<xs:element name="revisionChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Änderung der Revisionsstelle</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="representativesChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Änderung der Vertretungsbefugnisse, Funktionen, Unterschriften</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+												<xs:element name="uidChanged" minOccurs="0">
+													<xs:annotation>
+														<xs:documentation>Änderung der UID</xs:documentation>
+													</xs:annotation>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="lastFOSC" minOccurs="0">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="lastFoscDate"/>
+												<xs:element name="lastFoscNumber"/>
+												<xs:element name="lastFoscSequence" minOccurs="0"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="delete">
+							<xs:annotation>
+								<xs:documentation>Löschung</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="dateDeletion">
+										<xs:annotation>
+											<xs:documentation>Löschungs-Datum</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="lastFOSC" minOccurs="0">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="lastFoscDate"/>
+												<xs:element name="lastFoscNumber"/>
+												<xs:element name="lastFoscSequence" minOccurs="0"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:choice>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="content" type="CR_MessageType"/>
+</xs:schema>
