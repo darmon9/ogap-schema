@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) von Christian Müller (Staatssekretariat für Wirtschaft SECO) bearbeitet -->
+<!-- W3C Schema erstellt mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:eCH-0010="http://www.ech.ch/xmlns/eCH-0010/6" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1">
+	<xs:import namespace="http://www.ech.ch/xmlns/eCH-0010/6" schemaLocation="http://www.ech.ch/xmlns/eCH-0010/6/eCH-0010-6-0.xsd"/>
+	<xs:element name="publications">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="publication" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="meta">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="rubric" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="subRubric">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="BP01"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="language">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="de"/>
+													<xs:enumeration value="fr"/>
+													<xs:enumeration value="it"/>
+													<xs:enumeration value="en"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="registrationOffice" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>ONLY MANDATORY, IF REGISTRATION OFFICE CONTAINS MORE THAN ONE PUBLICATION ORIGINATOR</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id"/>
+													<xs:element name="displayName" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>EXPORT ONLY</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="publicationDate">
+											<xs:simpleType>
+												<xs:restriction base="xs:date">
+													<xs:assertion test="$value gt current-date()"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="primaryTenantCode" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationNumber" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:pattern value="BP[0-3]{2}-[0-9]{10}"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="dossierReference" type="xs:string" minOccurs="0"/>
+										<xs:element name="expiryDate">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="repeatedPublications" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="publicationDate">
+														<xs:simpleType>
+															<xs:restriction base="xs:date">
+																<xs:assertion test="$value gt (current-date() + xs:dayTimeDuration('P1D'))"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="cantons" minOccurs="0" maxOccurs="unbounded">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="AG"/>
+													<xs:enumeration value="AR"/>
+													<xs:enumeration value="AI"/>
+													<xs:enumeration value="BL"/>
+													<xs:enumeration value="BS"/>
+													<xs:enumeration value="BE"/>
+													<xs:enumeration value="FR"/>
+													<xs:enumeration value="GE"/>
+													<xs:enumeration value="GL"/>
+													<xs:enumeration value="GR"/>
+													<xs:enumeration value="JU"/>
+													<xs:enumeration value="LU"/>
+													<xs:enumeration value="NE"/>
+													<xs:enumeration value="NW"/>
+													<xs:enumeration value="OW"/>
+													<xs:enumeration value="SH"/>
+													<xs:enumeration value="SZ"/>
+													<xs:enumeration value="SO"/>
+													<xs:enumeration value="SG"/>
+													<xs:enumeration value="TI"/>
+													<xs:enumeration value="TG"/>
+													<xs:enumeration value="UR"/>
+													<xs:enumeration value="VD"/>
+													<xs:enumeration value="VS"/>
+													<xs:enumeration value="ZG"/>
+													<xs:enumeration value="ZH"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="secondaryTenants" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="tenantCode"/>
+													<xs:element name="publicationDate">
+														<xs:simpleType>
+															<xs:restriction base="xs:date">
+																<xs:assertion test="$value gt current-date()"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="municipalities" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>HR: EXPORT ONLY (CITY AND ZIPCODE ARE SET IN CONTENT ELEMENT)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="zipCode" type="eCH-0010:swissZipCodeType">
+														<xs:annotation>
+															<xs:documentation>CORRESPONDS TO eCH-0010:swissZipCodeType</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="city" type="eCH-0010:townType">
+														<xs:annotation>
+															<xs:documentation>CORRESPONDS TO eCH-0010:townType</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="creationDate" type="xs:dateTime" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="updateDate" type="xs:dateTime" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="publicationState" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="DRAFT"/>
+													<xs:enumeration value="SUBMITTED"/>
+													<xs:enumeration value="APPROVED"/>
+													<xs:enumeration value="PUBLISHED"/>
+													<xs:enumeration value="CANCELLED"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="publicationOriginator" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY. CORRESPONDS TO THE IMPORT USER LOGIN  </xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id"/>
+													<xs:element name="displayName"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="title" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="de"/>
+													<xs:element name="fr"/>
+													<xs:element name="it"/>
+													<xs:element name="en"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="legalRemedy" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>EXPORT ONLY</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="content"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="addressType">
+		<xs:sequence>
+			<xs:element name="addressLine" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Anm. Müller: Brauchen wir die beiden Adress-Felder? Können diese ebenfalls mit Street verbunden werden</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="street"/>
+			<xs:element name="zipCode" type="xs:integer"/>
+			<xs:element name="city"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="content">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="buildingContractor">
+					<xs:complexType>
+						<xs:sequence minOccurs="0">
+							<xs:element name="buildingContractor"/>
+							<xs:element name="address" type="addressType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="delegationBuildingContractor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="buildingContractor"/>
+							<xs:element name="address" type="addressType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="projectFramerType">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="buildingContractor"/>
+							<xs:enumeration value="delegationBuildingContractor"/>
+							<xs:enumeration value="other"/>
+							<xs:enumeration value="none"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="projectFramerDetails">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="buildingContractor"/>
+							<xs:element name="address" type="addressType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="projectDescription" type="xs:string"/>
+				<xs:element name="projectLocation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="address" type="addressType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="district" type="xs:string"/>
+				<xs:element name="cadastre" type="xs:string"/>
+				<xs:element name="buildingZone" type="xs:string"/>
+				<xs:element name="access" type="xs:string"/>
+				<xs:element name="legalRemedy" type="xs:string"/>
+				<xs:element name="remarks" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="uidType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="CHE[0-9]{9}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="companyType">
+		<xs:sequence>
+			<xs:element name="uid" type="uidType"/>
+			<xs:element name="companyName"/>
+			<xs:element name="translations" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Translation of Company Name (optional)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="seat"/>
+			<xs:element name="additionalSeat" minOccurs="0"/>
+			<xs:element name="legalFormCode">
+				<xs:annotation>
+					<xs:documentation>Corresponds to eCH-0097</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="legalFormText">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="de"/>
+						<xs:element name="fr"/>
+						<xs:element name="it"/>
+						<xs:element name="en"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="address">
+				<xs:annotation>
+					<xs:documentation>Corresponds to eCH-0010, although foreign addresses are not held in commercial register</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="addressLine1" type="eCH-0010:addressLineType" minOccurs="0"/>
+						<xs:element name="addressLine2" type="eCH-0010:addressLineType" minOccurs="0"/>
+						<xs:sequence minOccurs="0">
+							<xs:element name="street" type="eCH-0010:streetType"/>
+							<xs:element name="houseNumber" type="eCH-0010:houseNumberType" minOccurs="0"/>
+						</xs:sequence>
+						<xs:sequence minOccurs="0">
+							<xs:element name="postOfficeBoxNumber" type="eCH-0010:postOfficeBoxNumberType" minOccurs="0"/>
+							<xs:element name="postOfficeBoxText" type="eCH-0010:postOfficeBoxTextType"/>
+						</xs:sequence>
+						<xs:element name="locality" type="eCH-0010:localityType" minOccurs="0"/>
+						<xs:element name="zipCode" type="eCH-0010:swissZipCodeType"/>
+						<xs:element name="town" type="eCH-0010:townType"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="lastFOSCType">
+		<xs:sequence>
+			<xs:element name="lastFoscDate">
+				<xs:simpleType>
+					<xs:restriction base="xs:date">
+						<xs:assertion test="$value lt current-date()"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="lastFoscNumber" minOccurs="0"/>
+			<xs:element name="lastFoscSequence" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
